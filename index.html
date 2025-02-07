@@ -154,3 +154,507 @@
     </div>
   </body>
   </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naruto Universe Rankings</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet" />
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    /* Header Styles */
+    header {
+      background: url('/th.jpeg') no-repeat center center/cover;
+      height: 60vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    header h1 {
+      position: relative;
+      font-size: 3em;
+      z-index: 1;
+      margin: 0;
+      padding: 0 20px;
+      text-align: center;
+    }
+    
+    /* Navigation Styles */
+    nav {
+      background: ('naruto.webp');
+      color: #fff;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      padding: 15px 0;
+      display: block;
+    }
+    nav ul li a:hover {
+      border-bottom: 2px solid #0073e6;
+    }
+    
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    /* Section Styles */
+    section {
+      margin-bottom: 40px;
+    }
+    
+    /* About Section */
+    #about {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    #about img {
+      max-width: 100%;
+      width: 400px;
+      border-radius: 8px;
+      margin-right: 20px;
+    }
+    #about .about-text {
+      flex: 1;
+    }
+    
+    /* Rankings Section */
+    #ranking h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    #ranking .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    #ranking .character {
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    #ranking .character h2 {
+      color: #0073e6;
+    }
+    
+    /* Gallery Section */
+    #gallery {
+      text-align: center;
+    }
+    #gallery h2 {
+      margin-bottom: 20px;
+    }
+    #gallery .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    #gallery .gallery-grid img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+    #gallery .gallery-grid img:hover {
+      transform: scale(1.05);
+    }
+    
+    /* Contact Section */
+    #contact {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+    /* Footer Styles */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+      #about {
+        flex-direction: column;
+      }
+      #about img {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Naruto Universe Rankings</h1>
+  </header>
+  
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#ranking">Rankings</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <!-- Main Content -->
+  <main class="container">
+    <!-- About Section -->
+    <section id="about">
+      <img src="/naruto.webp" alt="Anime Illustration" />
+      <div class="about-text">
+        <h2>About the Naruto Universe</h2>
+        <p>
+          The Naruto Universe is filled with legendary ninjas, epic battles, and powerful abilities. From the Sage of Six Paths to today's heroes, this world is a rich tapestry of tradition, power, and destiny. Dive into the rankings of the most formidable beings and explore the lore behind this beloved series.
+        </p>
+      </div>
+    </section>
+    
+    <!-- Rankings Section -->
+    <section id="ranking">
+      <h2>Top 200 Strongest Beings in the Naruto Universe</h2>
+      <div class="grid">
+        <div class="character">
+          <h2>1. Kaguya Ōtsutsuki</h2>
+          <p>The progenitor of chakra, possessing god-like powers and interdimensional travel.</p>
+        </div>
+        <div class="character">
+          <h2>2. Hagoromo Ōtsutsuki</h2>
+          <p>The Sage of Six Paths, founder of ninjutsu, and wielder of immense chakra.</p>
+        </div>
+        <div class="character">
+          <h2>3. Naruto Uzumaki</h2>
+          <p>The Seventh Hokage, Jinchūriki of Kurama, and master of Sage and Six Paths Mode.</p>
+        </div>
+        <div class="character">
+          <h2>4. Sasuke Uchiha</h2>
+          <p>Possessor of the Eternal Mangekyō Sharingan and Rinnegan, a master of space-time jutsu.</p>
+        </div>
+        <div class="character">
+          <h2>5. Madara Uchiha</h2>
+          <p>Legendary Uchiha, wielder of the Rinnegan, and near-invincible warrior.</p>
+        </div>
+        <div class="character">
+          <h2>6. Hashirama Senju</h2>
+          <p>"God of Shinobi," legendary Wood Release user, and founder of Konohagakure.</p>
+        </div>
+        <div class="character">
+          <h2>7. Ten-Tails</h2>
+          <p>The original beast of chakra, capable of mass destruction.</p>
+        </div>
+        <div class="character">
+          <h2>8. Momoshiki Ōtsutsuki</h2>
+          <p>A god-tier Ōtsutsuki capable of absorbing and enhancing chakra.</p>
+        </div>
+        <div class="character">
+          <h2>9. Kurama</h2>
+          <p>The Nine-Tails, one of the strongest Tailed Beasts with vast chakra reserves.</p>
+        </div>
+        <div class="character">
+          <h2>10. Jiraiya</h2>
+          <p>One of the Legendary Sannin, master of Sage Mode and Rasengan.</p>
+        </div>
+        <div class="character">
+          <h2>11. Gamabunta</h2>
+          <p>The chief toad of Mount Myōboku, an expert in battle tactics and swordsmanship.</p>
+        </div>
+        <div class="character">
+          <h2>12. Orochimaru</h2>
+          <p>A Legendary Sannin, master of forbidden jutsu, and one of the most cunning ninja.</p>
+        </div>
+        <div class="character">
+          <h2>13. Hiruzen Sarutobi</h2>
+          <p>The Third Hokage, known as "The Professor" for his mastery of jutsu.</p>
+        </div>
+        <div class="character">
+          <h2>14. Might Guy</h2>
+          <p>Master of Taijutsu, capable of opening the Eight Gates for god-tier speed and power.</p>
+        </div>
+        <div class="character">
+          <h2>15. Kakashi Hatake</h2>
+          <p>The Copy Ninja, former Sixth Hokage, and expert strategist.</p>
+        </div>
+        <div class="character">
+          <h2>16. Shukaku</h2>
+          <p>The One-Tail Beast, known for its sand manipulation and defensive power.</p>
+        </div>
+        <div class="character">
+          <h2>17. Deidara</h2>
+          <p>Explosive clay expert and Akatsuki member.</p>
+        </div>
+        <div class="character">
+          <h2>18. Kisame Hoshigaki</h2>
+          <p>The "Tailed Beast without a Tail," known for his immense chakra pool.</p>
+        </div>
+        <div class="character">
+          <h2>19. Tsunade Senju</h2>
+          <p>The Fifth Hokage and one of the greatest medical-nin.</p>
+        </div>
+        <div class="character">
+          <h2>20. Zetsu</h2>
+          <p>Spy of the Akatsuki, a unique entity with ties to Kaguya.</p>
+        </div>
+        <!-- More characters up to 200 would be added here -->
+      </div>
+    </section>
+    
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <h2>Naruto Gallery</h2>
+      <div class="gallery-grid">
+        <img src="凯.png" alt="Naruto Image 1" />
+        <img src="大.jpeg" alt="Naruto Image 2" />
+        <img src="佐助.png" alt="Naruto Image 3" />
+        <img src="鸣.png" alt="Naruto Image 4" />
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>
+        If you have any suggestions or feedback, please reach out at
+        <a href="mailto:contact@narutouniverse.com">contact@narutouniverse.com</a>.
+      </p>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Naruto Universe Rankings. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naruto Universe</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet" />
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Header Styles */
+    header {
+      background: url('/th.jpeg') no-repeat center center/cover;
+      height: 60vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    header h1 {
+      position: relative;
+      font-size: 3em;
+      z-index: 1;
+      margin: 0;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    /* Navigation Styles */
+    nav {
+      background: black;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 10px 0;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      padding: 15px 0;
+      display: block;
+      cursor: pointer;
+    }
+    nav ul li a:hover {
+      border-bottom: 2px solid #0073e6;
+    }
+
+    /* Page Content */
+    .content {
+      display: none;
+      padding: 20px;
+    }
+    .active {
+      display: block;
+    }
+
+    /* Rankings Section */
+    #ranking h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    #ranking .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    #ranking .character {
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    #ranking .character h2 {
+      color: #0073e6;
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a onclick="showPage('home')">Home</a></li>
+      <li><a onclick="showPage('valorant')">Valorant</a></li>
+      <li><a onclick="showPage('ranking')">Ranking</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Page -->
+  <div id="home" class="content active">
+    <header>
+      <h1>Welcome to Naruto Universe</h1>
+    </header>
+    <main>
+      <section>
+        <h2>About the Naruto Universe</h2>
+        <p>
+          The Naruto Universe is filled with legendary ninjas, epic battles, and powerful abilities. 
+          From the Sage of Six Paths to today's heroes, this world is a rich tapestry of tradition, power, and destiny.
+        </p>
+      </section>
+    </main>
+  </div>
+
+
+
+  <!-- Ranking Page -->
+  <div id="ranking" class="content">
+    <header>
+      <h1>Naruto Universe Rankings</h1>
+    </header>
+    <main>
+      <section id="ranking">
+        <h2>Top Strongest Characters</h2>
+        <div class="grid">
+          <div class="character">
+            <h2>1. Kaguya Ōtsutsuki</h2>
+            <p>The progenitor of chakra, possessing god-like powers and interdimensional travel.</p>
+          </div>
+          <div class="character">
+            <h2>2. Hagoromo Ōtsutsuki</h2>
+            <p>The Sage of Six Paths, founder of ninjutsu, and wielder of immense chakra.</p>
+          </div>
+          <div class="character">
+            <h2>3. Naruto Uzumaki</h2>
+            <p>The Seventh Hokage, Jinchūriki of Kurama, and master of Sage and Six Paths Mode.</p>
+          </div>
+          <div class="character">
+            <h2>4. Sasuke Uchiha</h2>
+            <p>Possessor of the Eternal Mangekyō Sharingan and Rinnegan, a master

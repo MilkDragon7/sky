@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sky's Portfolio</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #ffffff;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+    }
+    .header nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 18px;
+    }
+    .hero {
+      text-align: center;
+      margin: 50px 0;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .hero h3 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .hero button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .hero button:hover {
+      background-color: #0056b3;
+    }
+    .section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 50px 0;
+    }
+    .section img {
+      width: 50%;
+      border-radius: 10px;
+    }
+    .section-text {
+      width: 45%;
+    }
+    .projects {
+      text-align: center;
+      margin: 50px 0;
+    }
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: left;
+    }
+    .project-card h3 {
+      margin-bottom: 10px;
+    }
+    .project-card p {
+      font-size: 16px;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h2>Sky's Portfolio</h2>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#technologies">Technologies</a>
+        <a href="#gaming">Gaming</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Hello, my name is Sky</h1>
+      <h3>im a human</h3>
+      <button>About Me</button>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-text">
+        <h2>A Bit About My Journey</h2>
+        <p>Over the past five years, I have developed a deep appreciation for Naruto, which has influenced my efficient and reliable lifestyle. I've also learned about game development, mobile apps, machine learning, cloud computing, and data science.</p>
+      </div>
+      <img src="huo.png" alt="Journey Image">
+    </section>
+
+    <section class="section" id="technologies">
+      <img src="iphone.png" alt="Tech Image">
+      <div class="section-text">
+        <h2>My Technologies</h2>
+        <ul>
+          <li>iPhone16</li>
+
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="gaming">
+      <div class="section-text">
+        <h2>My Life as a Gamer</h2>
+        <p>i play video game all day long, I love playing video games, specifically naruto.</p>
+        <p>I am a father of two ninja, Sasuke and Naruto.</p>
+        <p>My favorite sport is ninja run.</p>
+      </div>
+      <img src="naruto.webp" alt="Gaming Image">
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>Here's My Work!</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>my rank</h3>
+            <p>supershadow</p>
+            <img src="supershadow.png" alt="Project Image">
+            <a href="#">Demo Here</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  </html>
